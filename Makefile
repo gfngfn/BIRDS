@@ -41,12 +41,13 @@ TOP_FILES=\
 	bottom_up evaluation\
 	ast2fol ast2sql ast2ros\
 	ast2theorem \
+	sql2ast \
 	bx\
 	debugger\
 	simplification\
 
 TOP_FILES_WITH_MLI=\
-	parser expr conversion ast2sql ast2theorem\
+	parser expr conversion ast2sql ast2theorem sql2ast\
 	simplification\
 
 TEST_ONLY_FILES=\
